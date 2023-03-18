@@ -1,29 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Image Upload</title>
+    <title>อัพโหลดรูปภาพ</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='CSS/upload.css') }}">
+    
   </head>  
-  <body>
+
+  <body >
   <div class= "zone">
 
     <br></br>
 
-    <h1>Image Upload</h1>
-  <div id="dropZ">
-<img src="file:///C:/Users/ACER/Downloads/61059.svg" class="upload-icon" height="200"/>
+    <h2>-------------------------------------------------------------------------------------------------------------------------------------------- </h2>
+
+    <h2>🚘 เว็บแอปพลิเคชันสำหรับทำนายชิ้นส่วนรถยนต์และระดับความเสียหายด้วยภาพถ่ายเพียงภาพเดียว 🚘  </h2>
+    
+
+    <h2>🚓 (Web Application for car part prediction and damage estimation with single image) 🚓 </h2>
+
+    <h2>-------------------------------------------------------------------------------------------------------------------------------------------- </h2>
+    
+    <h1> 🚗 อัพโหลดรูปภาพ 🚗</h1>
+      
+  <!-- <div id="dropZ">
+    <br></br>
+<img src="https://100dayscss.com/codepen/upload.svg" class="upload-icon" height="190"/>
 <br></br>
 
 
-<form action="/upload" method="post" enctype="multipart/form-data" >
+<form action="/upload" method="post" enctype="multipart/form-data">
     </div>
       <div class = "selectFile">
       <input type="file" name="image" accept=".jpg, .jpeg">
 
-      <input type="submit" value="Upload">
+      <button type="submit" class="pull-right btn btn-primary"> ยืนยัน </button> -->
+
+
+
+
+      <head>
+        <script src="https://kit.fontawesome.com/5cdb7dd919.js" crossorigin="anonymous"></script>
+      </head>
+      <form action="/upload" method="post" enctype="multipart/form-data"></form>
+      
+          
+           
+          <div id="dropZ">
+            <br></br>
+            <img src="https://100dayscss.com/codepen/upload.svg" class="upload-icon" height="195" />
+            <br></br>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+    </div>
+          <div class = "selectFile">
+          <div class="barra" id="barra">
+          <div class="header">
+              <h2> 📌 อัพโหลด 📌 <h2>
+          </div>
+
+                <div class="conteiner">
+                <i class="fa-solid fa-cloud-arrow-up upload"></i>
+                <!-- <span class="nombre_archivo"></span>
+                <div class="center"></div> -->
+
+                <input type="file" name="image" accept=".jpg, .jpeg">
+                <br></br>
+                              
+              </div>
+            </div>
+            <button type="submit" class="pull-right btn btn-primary"> อัพโหลด </button> 
+            <!-- <i class="fa-solid fa-hourglass syncing"></i>
+            <i class="fa-solid fa-circle-check done" ></i> -->
+          </div>
+        </div>
+      </div>
+
+
+
+      
+
+
+
+
+      
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="frame">
+        <div class="center" id="container">
+          <div class="header">Drop file to upload</div>
+          <div class="dropbox" id="dropzone">
+            <input type="file" id="input">
+            <div class="upload__icon" id="uploadIcon">
+              <img src="https://100dayscss.com/codepen/upload.svg">
+              <div class = "selectFile">
+                <input type="file" name="image" accept=".jpg, .jpeg">
+            </div>
+            <span class="filename" id="fileNmae"></span>
+          </div>
+          <div class="icon__action">
+            <img class="syncing" src="https://100dayscss.com/codepen/syncing.svg">
+            <img class="done" src="https://100dayscss.com/codepen/checkmark.svg">
+          </div>
+          <button id="upload-btn">Upload file</button>
+        </div>
+      </div>
+      
+          
+        
     </form>
   </body>
 </div>
 </div>
+
+
+
   
 </html>
+
+
+
+
+
+
+
+ 
