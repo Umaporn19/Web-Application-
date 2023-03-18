@@ -6,21 +6,60 @@
     
   </head>  
 
+<style>
+  h2{
+    font-size: 30px;
+  }
+
+  .p1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 180%;
+    font-weight: 100;
+    
+  }
+  .p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+    font-weight: 100;
+    font-style: italic;
+  }
+  .p3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50%;
+    font-weight: 100;
+    font-style: italic;
+  }
+  .footer {
+  background-color: #7ab0f8;
+  padding: 2px;
+  text-align: center;
+}
+
+div2 {
+  background-color: rgb(232, 235, 235);
+  width: 2px;
+  border: 5px solid rgb(209, 208, 208);
+  padding: 5px;
+  margin: 2px;
+  opacity:inherit;
+}
+</style>
+
+
   <body >
-  <div class= "zone">
+  <div2 class= "zone">
 
     <br></br>
 
     <h2>-------------------------------------------------------------------------------------------------------------------------------------------- </h2>
 
-    <h2>🚘 เว็บแอปพลิเคชันสำหรับทำนายชิ้นส่วนรถยนต์และระดับความเสียหายด้วยภาพถ่ายเพียงภาพเดียว 🚘  </h2>
+    <p class="p1" >🚘 เว็บแอปพลิเคชันสำหรับทำนายชิ้นส่วนรถยนต์และระดับความเสียหายด้วยภาพถ่ายเพียงภาพเดียว 🚘  </p>
     
 
-    <h2>🚓 (Web Application for car part prediction and damage estimation with single image) 🚓 </h2>
+    <p class="p2" >🚓 (Web Application for car part prediction and damage estimation with single image) 🚓 </p>
 
-    <h2>-------------------------------------------------------------------------------------------------------------------------------------------- </h2>
-    
-    <h1> 🚗 อัพโหลดรูปภาพ 🚗</h1>
+    <h2>-------------------------------------------------------------------------------------------------------------------------------------------- </p>
+    <p class="p2"> 🚗 อัพโหลดรูปภาพ 🚗</p>
       
   <!-- <div id="dropZ">
     <br></br>
@@ -34,9 +73,7 @@
       <input type="file" name="image" accept=".jpg, .jpeg">
 
       <button type="submit" class="pull-right btn btn-primary"> ยืนยัน </button> -->
-
-
-
+      
 
       <head>
         <script src="https://kit.fontawesome.com/5cdb7dd919.js" crossorigin="anonymous"></script>
@@ -49,32 +86,36 @@
             <br></br>
             <img src="https://100dayscss.com/codepen/upload.svg" class="upload-icon" height="195" />
             <br></br>
-
+            
 <form action="/upload" method="post" enctype="multipart/form-data">
     </div>
           <div class = "selectFile">
           <div class="barra" id="barra">
           <div class="header">
-              <h2> 📌 อัพโหลด 📌 <h2>
+              <p class="p2"> 📌 อัพโหลด 📌 </p>
           </div>
 
-                <div class="conteiner">
+                <div2 class="conteiner">
                 <i class="fa-solid fa-cloud-arrow-up upload"></i>
                 <!-- <span class="nombre_archivo"></span>
                 <div class="center"></div> -->
 
                 <input type="file" name="image" accept=".jpg, .jpeg">
-                <br></br>
-                              
-              </div>
+                       
+              </div2>
+              <br></br> 
             </div>
             <button type="submit" class="pull-right btn btn-primary"> อัพโหลด </button> 
             <!-- <i class="fa-solid fa-hourglass syncing"></i>
             <i class="fa-solid fa-circle-check done" ></i> -->
+            <div class="footer">
+              <p class="p3">Thank you</p>
+            </div>
+            </body>
           </div>
         </div>
       </div>
-
+      
 
 
       
