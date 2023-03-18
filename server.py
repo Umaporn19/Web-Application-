@@ -12,7 +12,7 @@ def index():
 def upload():
     file = request.files['image']
     image = Image.open(file)
-    image.save('static/panoramic.jpg')
+    image.save('static/p01.jpg')
 
     return render_template('upload_completed.html')
 
